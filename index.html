@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculadora de Tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Tempo</h1>
+    <div class="input-group">
+      <label for="hora1">Hora:</label>
+      <input type="number" id="hora1" placeholder="0">
+      <label for="minuto1">Minuto:</label>
+      <input type="number" id="minuto1" placeholder="0">
+      <label for="segundo1">Segundo:</label>
+      <input type="number" id="segundo1" placeholder="0">
+    </div>
+    <div class="input-group">
+      <label for="hora2">Hora:</label>
+      <input type="number" id="hora2" placeholder="0">
+      <label for="minuto2">Minuto:</label>
+      <input type="number" id="minuto2" placeholder="0">
+      <label for="segundo2">Segundo:</label>
+      <input type="number" id="segundo2" placeholder="0">
+    </div>
+    <div class="button-group">
+      <button id="soma">Soma</button>
+      <button id="subtrai">Subtração</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class="resultado">
+      <h2>Resultado:</h2>
+      <p><span id="horaResultado"></span> horas, <span id="minutoResultado"></span> minutos e <span id="segundoResultado"></span> segundos</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
